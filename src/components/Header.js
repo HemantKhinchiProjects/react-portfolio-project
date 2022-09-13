@@ -1,4 +1,5 @@
 import React from 'react';
+import classes from './header.module.css';
 const Header = (resumeData) => {
   return (
     <>
@@ -7,7 +8,7 @@ const Header = (resumeData) => {
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
           </a>
-          <a className="mobile-btn" href="#" title="Hide navigation">
+          <a className={classes.mobile_btn} href="#" title="Hide navigation">
             Hide navigation
           </a>
           <ul id="nav" className="nav">
