@@ -2,9 +2,7 @@ import React from 'react';
 const Header = (resumeData) => {
   return (
     <>
-      xcvzxcv
       <header id="home">
-        Hemant
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
