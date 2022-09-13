@@ -8,7 +8,7 @@ import './style.css';
 
 export default function App() {
   return (
-    <div classname="App">
+    <div className="App">
       <Header resumeData={resumeData} />
       <About resumeData={resumeData} />
       <Resume resumeData={resumeData} />
