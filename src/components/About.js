@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useRef } from 'react';
+
 import './about.css';
 const About = ({ resumeData }) => {
+  const aboutSection = useRef(null);
   return (
-    <section id="about">
+    <section id="about" ref={aboutSection}>
       <div className="row">
         <div className="three columns">
           <img className="profile-pic" src="images/profilepic.jpg" alt="" />
