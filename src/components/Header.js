@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import { BsFillArrowDownCircleFill } from 'react-icons/bs';
-const Header = ({ resumeData }) => {
+const Header = ({ resumeData, scrollHandler }) => {
   return (
     <>
       <header id="home">
@@ -67,8 +67,8 @@ const Header = ({ resumeData }) => {
           </div>
         </div>
         <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
-            <i className="icon-down-circle"></i>
+          <a className="smoothscroll" href="#about" onClick={scrollHandler}>
+            <BsFillArrowDownCircleFill />
           </a>
         </p>
       </header>
