@@ -1,7 +1,7 @@
 let resumeData = {
   imagebaseurl: 'https://rbhatia46.github.io/',
   name: 'Hemant',
-  role: 'Frontend Developer and Data Scientist',
+  role: 'Frontend Developer and UI/UX Developer',
   linkedinId: 'Your LinkedIn Id',
   skypeid: 'Your skypeid',
   roleDescription:
@@ -24,15 +24,15 @@ let resumeData = {
     },
   ],
   aboutme:
-    'I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.',
+    'I am currently Working as a UI Developer in a Orgnistion. I am a self-taught front end Web Developer, I have 8.6 years of experience in designing & 1 years of developing . I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.',
   address: 'India',
   website: 'https://rbhatia46.github.io',
   education: [
     {
-      UniversityName: 'The LNM Insitute of Information Technology',
-      specialization: 'Some specialization',
+      UniversityName: 'Kota University kota',
+      specialization: 'Fine Arts',
       MonthOfPassing: 'Aug',
-      YearOfPassing: '2020',
+      YearOfPassing: '2007',
       Achievements: 'Some Achievements',
     },
     {

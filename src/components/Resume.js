@@ -1,6 +1,6 @@
 import React from 'react';
 import './resume.css';
-const Resume = (resumeData) => {
+const Resume = ({resumeData}) => {
   return (
     <section id="resume">
       <div className="row education">

@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-const Header = (resumeData) => {
+const Header = ({resumeData}) => {
   return (
     <>
       <header id="home">

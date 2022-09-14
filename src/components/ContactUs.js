@@ -1,5 +1,5 @@
 import React from 'react';
-const ContactUs = (resumeData) => {
+const ContactUs = ({resumeData}) => {
   return (
     <section id="contact">
       <div className="row section-head">
