@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Resume from './components/Resume';
@@ -7,6 +7,7 @@ import resumeData from './resumeData';
 import './style.css';
 
 export default function App() {
+  useEffect(() => {}, []);
   return (
     <div className="App">
       <Header resumeData={resumeData} />

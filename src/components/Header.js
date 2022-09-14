@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css';
-const Header = ({resumeData}) => {
+import { BsFillArrowDownCircleFill } from 'react-icons/bs';
+const Header = ({ resumeData }) => {
   return (
     <>
       <header id="home">
